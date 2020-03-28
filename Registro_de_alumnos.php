@@ -80,10 +80,9 @@ switch($accion){
         echo "precionaste liminar";    
     break;
         
-    case "?Cancelar?":
-        header('Location: Menu_Administrador,php');
-        echo $nombre;
-        echo "precionaste Cancelar";    
+    case "Salir":
+        header('Location: Menu_Administrador.php');
+          
     break;
 }
 
@@ -154,7 +153,7 @@ switch($accion){
             <button value="Regirtrar" type="submit" name="accion">Registrar</button>
             <button value="Modificar" type="submit" name="accion">Modificar</button>
             <button value="Eliminar" type="submit" name="accion">Eliminar</button>
-            <button value="salir" type="submit" name="accion">Salir</button>
+            <button value="Salir" type="submit" name="accion">Salir</button>
     
     </form>
 

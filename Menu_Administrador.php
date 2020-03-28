@@ -25,8 +25,8 @@
         <div class="container container--flex"></div>
            <span class="icon-menu" id="btnmenu"></span>
            <ul class="menu" id="menu">
-             <li class="menu__item"><a href="/" class="menu__link menu__link--select">INICIO</a></li>
-             <li class="menu__item"><a href="LIBROS" class="menu__link">LIBROS</a></li>
+             <li class="menu__item"><a href="index.html" class="menu__link menu__link--select">INICIO</a></li>
+             <li class="menu__item"><a href="Registro_de_alumnos.php" class="menu__link">REGIRTRO DE ALUMNOS</a></li>
              <li class="menu__item"><a href="Registro_de_Libros.php" class="menu__link">REGISTRO DE LIBROS</a></li>
              <li class="menu__item"><a href="Registro_de_Usuarios.php" class="menu__link">REGISTRO DE USUARIO</a></li>
            </ul>
