@@ -31,7 +31,7 @@ switch($accion){
         $sentencia->bindParam(':fotografia',$fotografia);
         $sentencia->execute();
         
-        header('location: Registro_de_alumnos.php');
+        header('location: Registro_de_alumnos.html');
         
         echo $nombre;
         echo "precionaste Regirtrar";    
@@ -63,7 +63,7 @@ switch($accion){
         $sentencia->bindParam(':id',$id);
         $sentencia->execute();
         
-        header('location: Registro_de_alumnos.php');
+        header('location: Registro_de_alumnos.html');
         
         echo $nombre;
         echo "precionaste Modificar";
@@ -74,7 +74,7 @@ switch($accion){
      $sentencia->bindParam(':id',$id);
      $sentencia->execute();  
         
-         header('location: Registro_de_alumnos.php');
+         header('location: Registro_de_alumnos.html');
         
         echo $id;
         echo "precionaste liminar";    
