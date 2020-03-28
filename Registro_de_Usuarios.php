@@ -54,7 +54,7 @@ switch($accion){
     break;
         
     case "Salir":
-        header('Location: Menu_Administrador.php');
+        header('Location: Menu_Administrador.html');
         echo $nombre;
         echo "precionaste Cancelar";    
     break;

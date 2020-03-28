@@ -81,7 +81,7 @@ switch($accion){
     break;
         
     case "Salir":
-        header('Location: Menu_Administrador.php');
+        header('Location: Menu_Administrador.html');
           
     break;
 }
